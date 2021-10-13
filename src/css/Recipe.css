@@ -1,0 +1,40 @@
+
+.card {
+    border-radius: .325rem;
+}
+
+.card-body {
+    padding: .725em;
+}
+
+.ingredients {
+    margin-bottom: 1.125em;
+    padding-left: 2em;
+}
+
+.title {
+    font-size: 1.05rem;
+    margin-bottom: .5em;
+}
+
+.delete {
+    background-color: #e63946;
+    color: #fff;
+    position: relative;
+    font-size: 1rem;
+    border: none;
+    padding: .75em 1.5em;
+    border-radius: .325rem;
+    margin-top: .725em;
+    box-shadow: 0px 4px #bb2734;
+}
+
+.delete:hover {
+    top: 2px;
+    box-shadow: 0px 2px #bb2734;
+}
+
+.delete:active {
+    top: 4px;
+    box-shadow: 0px 0px #bb2734;
+}
